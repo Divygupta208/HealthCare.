@@ -21,7 +21,7 @@ const Header = () => {
       </div>
       <div className="profile-section">
         <img src="/assets/avatar2.svg" className="avatar" />
-        <img src="public\assets\add-icon.svg" className="add-icon" />
+        <img src="/assets/add-icon.svg" className="add-icon" />
       </div>
     </div>
   );

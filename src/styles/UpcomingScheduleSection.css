@@ -1,0 +1,76 @@
+.head {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.bot {
+  margin-left: 30px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.thursday-title {
+  margin-bottom: 10px;
+  color: gray;
+  font-size: small;
+}
+.saturday-title {
+  margin-bottom: 10px;
+  color: gray;
+  font-size: small;
+}
+
+.thursday-cards {
+  display: flex;
+  gap: 10px;
+}
+
+.saturday-cards {
+  display: flex;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .head {
+    font-weight: bold;
+    margin-left: 10px;
+    width: 80vw;
+    margin-top: 30px;
+  }
+
+  .bot {
+    margin-left: 30px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .thursday-title {
+    margin-bottom: 10px;
+    color: gray;
+    font-size: medium;
+  }
+  .saturday-title {
+    margin-bottom: 10px;
+    color: gray;
+    font-size: medium;
+  }
+
+  .thursday-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80vw;
+  }
+
+  .saturday-cards {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+
+    gap: 10px;
+  }
+}

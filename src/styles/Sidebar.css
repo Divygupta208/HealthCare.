@@ -1,0 +1,103 @@
+.sidebar-main {
+  width: 250px;
+  margin-left: 10px;
+  height: 85vh;
+  background-color: #f6faff;
+}
+
+.general-options {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 50px;
+  top: 0px;
+  color: #b0b5ba;
+}
+.general-title {
+  color: #bdbec1;
+  font-size: small;
+}
+.general-options .selected {
+  color: #271e66;
+  font-weight: 500;
+}
+
+.tool-options {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 50px;
+  top: 50px;
+  color: #b0b5ba;
+}
+
+.tool-title {
+  color: #bdbec1;
+  font-size: small;
+}
+
+.sidebar-main img {
+  width: 20px;
+}
+.image0 {
+  width: 20px;
+}
+
+.image1 {
+  position: relative;
+  right: 12px;
+}
+
+.dashboard {
+  display: flex;
+  font-size: 16px;
+  gap: 18px;
+}
+.dashboard img {
+  width: 22px;
+}
+
+.history {
+  display: flex;
+  font-size: 15px;
+}
+.history .item-title {
+  position: relative;
+  left: 0px;
+}
+
+.calendar {
+  font-size: 15px;
+  gap: 20px;
+  display: flex;
+}
+.appointments {
+  font-size: 15px;
+  gap: 20px;
+  display: flex;
+}
+.statistics {
+  font-size: 15px;
+  gap: 20px;
+  display: flex;
+}
+
+.chat {
+  font-size: 15px;
+  gap: 20px;
+  display: flex;
+}
+
+.support {
+  font-size: 15px;
+  gap: 20px;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .sidebar-main {
+    display: none;
+  }
+}

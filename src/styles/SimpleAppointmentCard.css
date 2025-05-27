@@ -1,0 +1,75 @@
+.appointment-card {
+  background-color: rgb(167, 147, 147);
+  width: fit-content;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.29);
+}
+
+.appointment-card-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+}
+
+.appointment-card-top .title {
+  font-size: small;
+  font-weight: 600;
+}
+
+.appointment-card-time {
+  font-size: x-small;
+}
+.appointment-doctor {
+  font-size: x-small;
+}
+
+.appointment-card.today {
+  background-color: #3635a9;
+  color: white;
+}
+
+.appointment-card.incoming {
+  background-color: #dde3f8;
+  color: #272551;
+}
+
+@media (max-width: 768px) {
+  .appointment-card {
+    background-color: rgb(167, 147, 147);
+    width: 80vw;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.29);
+  }
+
+  .appointment-card-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .appointment-card-top .title {
+    font-size: medium;
+    font-weight: 600;
+  }
+
+  .appointment-card-time {
+    font-size: small;
+  }
+  .appointment-doctor {
+    font-size: small;
+  }
+
+  .appointment-card.today {
+    background-color: #3635a9;
+    color: white;
+  }
+
+  .appointment-card.incoming {
+    background-color: #dde3f8;
+    color: #272551;
+  }
+}

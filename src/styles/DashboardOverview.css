@@ -1,0 +1,55 @@
+.anatomy-section {
+  display: flex;
+}
+
+.dashboard-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 550px;
+  margin-left: 35px;
+  margin-top: 0px;
+}
+
+.top-title {
+  font-size: x-large;
+  font-weight: 600;
+  color: #1a1e53;
+  margin-bottom: 5px;
+}
+
+.top-calendar {
+  font-size: 11px;
+  color: #1a1e53;
+}
+
+@media (max-width: 768px) {
+  .anatomy-section {
+    display: flex;
+    gap: 0px;
+  }
+
+  .dashboard-top {
+    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 550px;
+    margin-left: 35px;
+    margin-top: 0px;
+  }
+
+  .top-title {
+    display: none;
+    font-size: x-large;
+    font-weight: 600;
+    color: #1a1e53;
+    margin-bottom: 5px;
+  }
+
+  .top-calendar {
+    display: none;
+    font-size: 11px;
+    color: #1a1e53;
+  }
+}

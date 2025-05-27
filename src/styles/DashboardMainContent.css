@@ -1,0 +1,10 @@
+.dashboard-main {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .dashboard-main {
+    flex-direction: column;
+    overflow: scroll;
+  }
+}

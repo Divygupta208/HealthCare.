@@ -1,0 +1,55 @@
+.calendar-main {
+  background-color: #f6faff;
+  width: 39vw;
+  height: 85vh;
+  margin-left: 20px;
+  border-bottom-right-radius: 40px;
+}
+
+.calendar-info {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.calendar-month {
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 15px;
+  color: #3635a9;
+}
+
+.calendar-shift img {
+  width: 20px;
+}
+
+@media (max-width: 768px) {
+  .calendar-main {
+    background-color: #ffffff;
+    width: 39vw;
+    height: 85vh;
+    margin-left: 20px;
+  }
+
+  .calendar-info {
+    display: flex;
+    align-items: center;
+    width: 350px;
+    padding: 10px;
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+  }
+
+  .calendar-month {
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 15px;
+    color: #3635a9;
+  }
+
+  .calendar-shift img {
+    width: 20px;
+  }
+}

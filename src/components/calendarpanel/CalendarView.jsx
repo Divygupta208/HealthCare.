@@ -11,8 +11,8 @@ const CalendarView = () => {
         <div className="calendar-info">
           <div className="calendar-month">October 2025</div>
           <div className="calendar-shift">
-            <img src="public/assets/left.svg" />
-            <img src="public/assets/right.svg" />
+            <img src="/assets/left.svg" />
+            <img src="/assets/right.svg" />
           </div>
         </div>
         <CalendarGrid />
